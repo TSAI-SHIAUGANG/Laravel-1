@@ -1,0 +1,24 @@
+#header-logo{
+  color: #000;
+  font-size: 22px;
+}
+
+#footer-logo{
+  color: #fff;
+  font-size: 22px;
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus{
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+span.help-block{
+  color: #ff3b30;
+  font-size: 14px;
+}

@@ -4,6 +4,9 @@
 
 @section('content')
 <div class="container pt-lg">
+  @if (session('status'))
+  <div class="alert alert-success">{{ session('status') }}</div>
+  @else
   <div class="row justify-content-center">
     <div class="col-md-6 col-lg-5 col-xl-5">
 
@@ -43,5 +46,6 @@
 
     </div>
   </div>
+  @endif
 </div>
 @endsection
